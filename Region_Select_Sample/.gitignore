@@ -1,0 +1,9 @@
+data
+**/.*.swp
+*.pyc
+models/
+data/viz_*
+data/class/*
+data/curvature/*
+data/s3dis_normal
+
