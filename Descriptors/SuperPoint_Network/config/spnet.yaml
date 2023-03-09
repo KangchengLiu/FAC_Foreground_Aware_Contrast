@@ -1,0 +1,95 @@
+# --------------CONFIG FILE-----------------------
+
+
+
+#------GPU setting -------------------------------
+for_debug: False
+train_gpu:
+  - 0
+test_gpu:
+  - 0
+
+# ------------random seed -------------------------
+manual_seed: 123
+sync_bn: False
+
+# ------------dataset setting----------------------
+data_name: 's3dis'
+classes: 13             # 13 cateogries for S3DIS (13 labeled)
+data_root: "/test/dataset/3d_datasets/features_supervision/"
+names_path: "/test/work2020/superpoints/spnet/dataset/s3dis/s3dis_names.txt"
+
+num_point: 14999        # actually 14999+1=15000
+# very important!!!!
+# rate: 0.008             # 0.008 for training and 0.0069 for testing
+rate: 0.0069
+
+minpoints: 15000
+test_area: 5
+block_size: 3.0         # 1.5m
+sample_rate: 1.0
+stride_rate: 1.0
+fea_dim: 7              # feature dimension
+use_xyz: True
+
+global_feat: 'eXYrgb'
+ver_value: 'ptn'
+learned_embeddings: True
+pc_augm_rot: 1
+pc_augm_jitter: 1
+
+use_softmax: True
+use_norm: False
+
+use_rgb: True           # whether to use RGB information, SemanticKITTI has no RGB, but remission
+nsample: 30             # knn 
+
+near_clusters2point: 6
+near_points2cluster: 50
+
+k_nn_adj: 5
+k_nn_local: 20
+BR_tolerance: 1
+
+# -------------network setting---------------------
+arch: 'model.network' # network architecture
+
+dropout: 0.3
+
+train_batch_size: 4
+test_batch_size: 1
+ignore_label: 255
+
+epochs: 5000
+start_epoch: 0
+
+train_workers: 8
+save_freq: 1            # save frequence
+print_freq: 1           # print frequence
+metric_freq: 1
+
+base_lr: 0.001          # sgd base_lr
+momentum: 0.9           # momentum
+weight_decay: 0.0001    # weight_decay
+
+re_xyz_loss: 'mse'
+re_label_loss: 'cel'
+re_sp_loss: 'cel'
+use_semantic_loss: 0    # 0: not use 1: seg 2: seal
+
+w_re_xyz_loss: 0.0001
+w_re_label_loss: 1.0
+w_re_sp_loss: 1.0
+w_semantic_loss: 0.0
+
+opts: 'adam'            # optimizer: sgd or adam
+gamma: 0.5
+T_max: 10
+
+step_epoch: 25          # decay learning rate per/epoch
+
+multiplier: 0.1         # multiplier
+
+# ------------------evaluation----------------------------
+evaluate: False           # evaluate
+

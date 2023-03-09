@@ -1,0 +1,3 @@
+/test/work2020/superpoints/spnet/lib/ply_c/CMakeFiles/rebuild_cache.dir
+/test/work2020/superpoints/spnet/lib/ply_c/CMakeFiles/ply_c.dir
+/test/work2020/superpoints/spnet/lib/ply_c/CMakeFiles/edit_cache.dir
