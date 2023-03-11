@@ -153,6 +153,22 @@ The `FAC` is released under the [MIT license](LICENSE).
 
 For Questions regarding the 3D point cloud smenatic segmentation, 3D instance segmentation, and 3D object detction, and the methodology of our FAC-(Foreground_Aware_Contrast), please contact through email (kcliuntu@gmail.com or kcliu@gmail.com). 
 
+## Citation
+
+Please cite our work if you find our work useful:
+
+
+```
+
+@article{liu2023fac,
+  title={FAC: 3D Representation Learning via Foreground Aware Feature Contrast},
+  author={Liu, Kangcheng and Xiao, Aoran and Zhang, Xiaoqin and Lu, Shijian and Shao, Ling},
+  journal={arXiv preprint},
+  year={2023}
+}
+
+
+```
 
 ## If you find our work helpful, please feel free to give a star to this repo!
 
