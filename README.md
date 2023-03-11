@@ -159,7 +159,6 @@ Please cite our work if you find our work useful:
 
 
 ```
-
 @article{liu2023fac,
   title={FAC: 3D Representation Learning via Foreground Aware Feature Contrast},
   author={Liu, Kangcheng and Xiao, Aoran and Zhang, Xiaoqin and Lu, Shijian and Shao, Ling},
@@ -167,9 +166,10 @@ Please cite our work if you find our work useful:
   year={2023}
 }
 
-
 ```
 
-## If you find our work helpful, please feel free to give a star to this repo!
+## Star
+
+If you find our work helpful, please feel free to give a star to this repo.
 
 
