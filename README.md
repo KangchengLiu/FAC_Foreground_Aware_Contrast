@@ -12,7 +12,7 @@ Constructing informative contrast pairs matters in contrastive learning: Convent
 
 <p align="center"> <img src="Figures/Framework.png" width="100%"> </p>
 
-The framework of this work is illustrated above, basically we construct better contrast pairs for more informative constrative feature learning to enhance downstream performance.
+The framework of this work is illustrated above, basically we construct better contrast pairs for more informative constrative feature learning to enhance downstream performance. In other words, grouping and foreground-background distinction for better contrastive feature learning.
 
 
 # The activation visualization
