@@ -114,12 +114,12 @@ Following PointGroup, HAIS and SoftGroup, we finetune a model pretrained on Scan
 
 | Dataset | AP_50 | Config | Checkpoint :floppy_disk: 
 |:-:|:-:|:-:|:-:|
-| Area 1 | 54.9 | [config](scripts/s3dis/s3dis_pretrained.sh) | [checkpoint](https://entuedu-my.sharepoint.com/:u:/g/personal/kangcheng_liu_staff_main_ntu_edu_sg/EbSdDBiuAgNOgOUZd-yDP8YBGRmjcAaOYJe70KUB5yUxTg?e=jbdddU) 
-| Area 2 | 53.6 | [config](scripts/s3dis/s3dis_pretrained.sh) | [checkpoint](https://entuedu-my.sharepoint.com/:u:/g/personal/kangcheng_liu_staff_main_ntu_edu_sg/EWtkZyzF0AhJoXcXWby43VABHfkLKsdTSrPvYlcu4yk4Rw?e=jNNAFC) 
-| Area 3 | 51.7 | [config](scripts/s3dis/s3dis_pretrained.sh) | [checkpoint](https://entuedu-my.sharepoint.com/:u:/g/personal/kangcheng_liu_staff_main_ntu_edu_sg/EfgPDUZCnlNOoeSUvVt3GpUBU7kAiRD4UfphBY7qjzKu9g?e=dMz0XN) 
-| Area 4 | 58.9 | [config](scripts/s3dis/s3dis_pretrained.sh) | [checkpoint](https://entuedu-my.sharepoint.com/:u:/g/personal/kangcheng_liu_staff_main_ntu_edu_sg/EYLGahxQjLlIr5JX_jBGPQ0B-pP0N87tZDxc7c5KP_77bg?e=peNVj2) 
-| Area 5 | 57.6 | [config](scripts/s3dis/s3dis_pretrained.sh) | [checkpoint](https://entuedu-my.sharepoint.com/:u:/g/personal/kangcheng_liu_staff_main_ntu_edu_sg/EeWqTw5lnutLoHl7h5HecikB-296UZ5sbChYt16dKS6L_g?e=muLiUb) 
-| Area 6 | 56.2 | [config](scripts/s3dis/s3dis_pretrained.sh) | [checkpoint](https://entuedu-my.sharepoint.com/:u:/g/personal/kangcheng_liu_staff_main_ntu_edu_sg/EXNSybwuM4pMvvJby-OPng4Bo1AgwEt8Nd5Ac8imO6s0OQ?e=0iPsmy) 
+| Area 1 | 54.9 | [config](scripts/s3dis/s3dis_pretrained.sh) | [checkpoint](https://hkustgz-my.sharepoint.com/:u:/g/personal/kangchengliu_hkust-gz_edu_cn/EfPaO83QkO5Ol2qwMUSjZKkBRibz3TuhSYjk6WpbaIYOdA?e=jsXaoO) 
+| Area 2 | 53.6 | [config](scripts/s3dis/s3dis_pretrained.sh) | [checkpoint](https://hkustgz-my.sharepoint.com/:u:/g/personal/kangchengliu_hkust-gz_edu_cn/Ea8BbjsXAdFJiDxQacvqLCwB2QX5z98NMxVR4bKuT92E7w?e=9dzHtO) 
+| Area 3 | 51.7 | [config](scripts/s3dis/s3dis_pretrained.sh) | [checkpoint](https://hkustgz-my.sharepoint.com/:u:/g/personal/kangchengliu_hkust-gz_edu_cn/Eb8GEtMUChZGnxqb6p1uMyIBQhEyV0QVpVMalMTGqYH-Wg?e=PJoJ3x) 
+| Area 4 | 58.9 | [config](scripts/s3dis/s3dis_pretrained.sh) | [checkpoint](https://hkustgz-my.sharepoint.com/:u:/g/personal/kangchengliu_hkust-gz_edu_cn/Ee-KpKkJL6JOjJlorhR22hQBvL2iht8lODIYzeV9ho0vWQ?e=Wz6cAc) 
+| Area 5 | 57.6 | [config](scripts/s3dis/s3dis_pretrained.sh) | [checkpoint](https://hkustgz-my.sharepoint.com/:u:/g/personal/kangchengliu_hkust-gz_edu_cn/Eah0XjyqKQ5BhqyeYMdWPMEBSeeGOHYgBztR_GXEtEgOuw?e=Maz57q) 
+| Area 6 | 56.2 | [config](scripts/s3dis/s3dis_pretrained.sh) | [checkpoint](https://hkustgz-my.sharepoint.com/:u:/g/personal/kangchengliu_hkust-gz_edu_cn/ER9xo_OxSeJLsj2SJJNOGDgBcEajYDt4oWAMMreEbIeAmA?e=aayUTS) 
 
 
 
