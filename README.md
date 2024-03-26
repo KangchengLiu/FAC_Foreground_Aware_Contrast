@@ -161,8 +161,8 @@ Please cite our work if you find our work useful:
 ```
 @article{liu2023fac,
   title={FAC: 3D Representation Learning via Foreground Aware Feature Contrast},
-  author={Liu, Kangcheng and Xiao, Aoran and Zhang, Xiaoqin and Lu, Shijian and Shao, Ling},
-  journal={arXiv preprint},
+  author={Liu, Kangcheng* and Xiao, Aoran and Zhang, Xiaoqin and Lu, Shijian and Shao, Ling},
+  journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2023)},
   year={2023}
 }
 ```
